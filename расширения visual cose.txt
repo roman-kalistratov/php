@@ -1,0 +1,13 @@
+PHP Intelephense
+PHP server
+Live server
+
+Live Server Web Extension - устанавливаем в Chrome
+
+Расширения для VS -
+eCSStractor - выносит все классы из кода
+Auto Rename Tag
+Prettier
+All Cutocomlete
+Auto Close Tag
+Material Theme
