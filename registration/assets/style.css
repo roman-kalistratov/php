@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+form {
+    min-width: 500px;
+    max-width: 700px;
+    box-shadow: 0.0145rem 0.029rem 0.174rem rgba(0, 0, 0, 0.01698),
+        0.0335rem 0.067rem 0.402rem rgba(0, 0, 0, 0.024),
+        0.0625rem 0.125rem 0.75rem rgba(0, 0, 0, 0.03),
+        0.1125rem 0.225rem 1.35rem rgba(0, 0, 0, 0.036),
+        0.2085rem 0.417rem 2.502rem rgba(0, 0, 0, 0.04302),
+        0.5rem 1rem 6rem rgba(0, 0, 0, 0.06),
+        0 0 0 0.0625rem rgba(0, 0, 0, 0.015);
+    border-radius: 0.25rem;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        padding: 10px 0;
+        border-bottom: 1px solid rgb(128, 128, 128, 0.3);
+    }
+
+    label {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    input {
+        width: 100%;
+        padding: 8px;
+        background: none;
+        outline: none;
+        border: 1px solid rgb(128, 128, 128, 0.3);
+        border-radius: 5px;
+    }
+
+    button {
+        border: 1px solid rgb(128, 128, 128, 0.3);
+        background: rgb(60, 133, 218);
+        padding: 8px;
+        border-radius: 5px;
+        margin-top: 20px;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+            background: rgb(60, 133, 218, .9);
+        }
+    }
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid rgb(128, 128, 128, 0.3);
+
+    label {
+        justify-content: start;
+        flex-direction: row;
+        padding: 10px;
+    }
+
+    input {
+        width: 16px;
+        cursor: pointer;
+
+    }
+}
+
+small {
+    color: red;
+}
